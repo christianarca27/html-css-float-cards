@@ -13,10 +13,6 @@ body {
     float: left;
 }
 
-.float-right {
-    float: right;
-}
-
 .clear-fix::after {
     content: "";
     clear: both;
@@ -58,9 +54,8 @@ header h1 {
     color: white;
 }
 
-.card.central {
-    display: inline-block;
-    margin-left: 5%;
+.card:not(.third) {
+    margin-right: 5%;
 }
 
 .card img {
