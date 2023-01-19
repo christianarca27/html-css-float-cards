@@ -32,8 +32,6 @@ body {
 
 /* header */
 header h1 {
-    /* debug */
-    /* background-color: blue; */
     padding: 30px 0;
     text-align: center;
     color: #e53170;
@@ -44,7 +42,6 @@ header h1 {
 /* Alternativa senza classe: 
     main > p:first-of-type */
 .centered-paragraph {
-    /* background-color: green; */
     padding: 20px 0;
     text-align: center;
 }
@@ -55,6 +52,7 @@ header h1 {
 
 /* card */
 .card {
+    box-shadow: 0px 0px 5px #0f0e17;
     background-color: #0f0e17;
     width: 30%;
     color: white;
