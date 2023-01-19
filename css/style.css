@@ -26,7 +26,7 @@ body {
 
 /* container */
 .container {
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -65,8 +65,8 @@ header h1 {
 
 .card img {
     margin-right: 20px;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     float: left;
 }
 
@@ -76,12 +76,11 @@ header h1 {
 }
 
 .info h2 {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .info .role, .info .email {
-    margin-top: 0.6em;
-    font-size: 0.6em;
+    margin-top: 0.4em;
 }
 
 .info .email {
