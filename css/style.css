@@ -42,13 +42,11 @@ header h1 {
     text-align: center;
 }
 
-.raw {
-    padding: 20px 0;
-}
-
 /* col */
 .raw .col {
     width: 33.3%;
+    padding: 10px 0;
+    min-width: 320px;
 }
 
 /* card */
