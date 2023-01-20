@@ -54,21 +54,10 @@ header h1 {
 /* card */
 .card {
     max-width: 95%;
+    margin: 0 auto;
     box-shadow: 0px 0px 5px #0f0e17;
     background-color: #0f0e17;
     color: white;
-}
-
-.col:first-of-type .card {
-}
-
-.col:nth-child(2) .card {
-    margin: 0 auto;
-}
-
-.col:last-child .card {
-    margin-right: 0;
-    margin-left: auto;
 }
 
 .card img {
