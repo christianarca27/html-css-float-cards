@@ -67,15 +67,15 @@ header h1 {
 
 /* info */
 .info {
-    padding-top: 10px;
+    padding-top: 0.2em;
 }
 
 .info h2 {
     font-size: 1.2em;
 }
 
-.info .role, .info .email {
-    margin-top: 0.4em;
+.info > * {
+    margin: 0.4em 0;
 }
 
 .info .email {
