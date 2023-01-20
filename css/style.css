@@ -22,7 +22,7 @@ body {
 
 /* container */
 .container {
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -46,16 +46,29 @@ header h1 {
     padding: 20px 0;
 }
 
+/* col */
+.raw .col {
+    width: 33.3%;
+}
+
 /* card */
 .card {
+    max-width: 95%;
     box-shadow: 0px 0px 5px #0f0e17;
     background-color: #0f0e17;
-    width: 30%;
     color: white;
 }
 
-.card:not(.third) {
-    margin-right: 5%;
+.col:first-of-type .card {
+}
+
+.col:nth-child(2) .card {
+    margin: 0 auto;
+}
+
+.col:last-child .card {
+    margin-right: 0;
+    margin-left: auto;
 }
 
 .card img {
@@ -83,5 +96,6 @@ header h1 {
 }
 /* /info */
 /* /card */
+/* /col */
 /* /main */
 /* /container */
